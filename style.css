@@ -1,0 +1,40 @@
+/* ! Base style */
+body{font-family: 'Inter', sans-serif;font-style: 16px;}
+
+a{text-decoration: none;}
+
+h1,h2,h3,h4,h5, p{color:#000; padding-bottom: 30px;}
+
+.big-text{font-size: 70px;}
+.med-text{font-style: 40px;}
+.normal.text{font-style: 20px;}
+.small.text{font-style: 14px;}
+
+.intro-text{text-transform: uppercase;font-style: 20px;font-weight: bold;}
+
+.button{padding: 18px 28px; color= background: #0071e3; color:#fff; display: inline-block;}
+/* ! Header */
+
+
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  display: flex;
+  background: #000;
+}
+
+.logo{
+}
+
+.menu{
+  width: 100%;
+}
+
+.menu li{display: inline-block;}
+.menu li a{color: #fff; padding: 15px; display:block }
+
+.cta{
+}
