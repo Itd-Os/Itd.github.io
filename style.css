@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5, p{color:#fff; padding-bottom: 30px;}
 
   .menu{position: absolute; top:0; right:-100%;background: red;height: 100vh;padding-top: 80px; }
   .menu li{display: block;}
-
+  .menu li a {padding: 15px 30px;font-size: 20px;}
   .menu--open{right:0%}
 
   .hamburge{
