@@ -13,6 +13,12 @@ h1,h2,h3,h4,h5, p{color:#fff; padding-bottom: 30px;}
 .intro-text{text-transform: uppercase;font-style: 20px;font-weight: bold;}
 
 .button{padding: 18px 28px; background: #0071e3; color:#fff; display: inline-block;border-radius: 4px;}
+
+@media (max-width: 768px) {
+
+ .big-text{font-size: 40px}
+
+}
 /* ! Header */
 
 
@@ -38,7 +44,30 @@ h1,h2,h3,h4,h5, p{color:#fff; padding-bottom: 30px;}
 .menu li{display: inline-block;}
 .menu li a{color: #fff; padding: 15px; display:block }
 
-.cat{}
+.cta{}
+
+  .hamburger{display: none;}
+
+@media (max-width: 768px) {
+
+  .cta{display: none;}
+
+  .menu{position: absolute; top:0; right:-100%;background: red;height: 100vh;padding-top: 80px; }
+  .menu li{display: block;}
+
+  .menu--open{right:0%}
+
+  .hamburge{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+  }
+  .hamburge span{background: #ffffff;height: 3px;width: 100%; display: block;margin-bottom: 5px;}
+
+}
 
 /* ! Hero */
 
