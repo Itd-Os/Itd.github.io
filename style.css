@@ -3,7 +3,7 @@ body{font-family: 'Inter', sans-serif;font-style: 16px;}
 
 a{text-decoration: none;}
 
-h1,h2,h3,h4,h5, p{color:#000; padding-bottom: 30px;}
+h1,h2,h3,h4,h5, p{color:#fff; padding-bottom: 30px;}
 
 .big-text{font-size: 70px;font-weight: 900px;}
 .med-text{font-style: 40px;}
@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5, p{color:#000; padding-bottom: 30px;}
 
 .intro-text{text-transform: uppercase;font-style: 20px;font-weight: bold;}
 
-.button{padding: 18px 28px; color= background: #0071e3; color:#fff; display: inline-block;}
+.button{padding: 18px 28px; background: #0071e3; color:#fff; display: inline-block;border-radius: 4px;}
 /* ! Header */
 
 
@@ -20,10 +20,11 @@ h1,h2,h3,h4,h5, p{color:#000; padding-bottom: 30px;}
   width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 30px;
   display: flex;
-  background: #000;
+  max-width: 1350px;
 }
 
 .logo{}
@@ -42,16 +43,19 @@ h1,h2,h3,h4,h5, p{color:#000; padding-bottom: 30px;}
 /* ! Hero */
 
 .hero{
-  background: #fcaef1;
   height: 600px;
   display: flex; width: 100%;align-items: center;
+  background: linear-gradient(0deg, rgba(0,0,0,.8), rgba(0,0,0,0.3)),
+  url('bg-video.png') no-repeat center center;
+  background-size: cover;
 }
 
 
 .hero__content{
-  border: 1px solid red;
   width: 100%;
   max-width: 1350px;
   margin: 0 auto;
-
+  padding: 30px;
 }
+.hero__content h1,
+.hero__content p{color: #fff},
