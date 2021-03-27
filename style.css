@@ -33,7 +33,19 @@ h1,h2,h3,h4,h5, p{color:#000; padding-bottom: 30px;}
   width: 100%;
 }
 
+
+
 .menu li{display: inline-block;}
 .menu li a{color: #fff; padding: 15px; display:block }
 
-.cta{}
+
+
+/* ! Hero */
+
+.hero{
+  background: #000;
+  height: 600px;
+  display: flex; width: 100%; align-items: center;
+}
+
+.hero__content{border: 1px solid red;}
