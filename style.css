@@ -33,10 +33,13 @@ h1,h2,h3,h4,h5, p{color:#fff; padding-bottom: 30px;}
   max-width: 1350px;
 }
 
-.logo{}
+.logo{
+  z-index: 1
+}
 
 .menu{
   width: 100%;
+  z-index:0
 }
 
 
