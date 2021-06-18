@@ -1,15 +1,15 @@
 {
   "name": "solid",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "description": "the official ITD site",
+  "author": "Inifnitve team developer",
   "license": "GPLv3",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Itd-Os/Itd.github.io"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Itd-Os/Itd.github.io/issues"
   },
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
