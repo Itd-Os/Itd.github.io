@@ -1,16 +1,51 @@
-
 <!DOCTYPE html>
-<html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
    <head>
-      <style>
-         body {
-            background-image: url("5591421.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-         }
+      <meta charset="utf-8">
+      <title>Animated Sidebar Menu | CodingLab</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+     <style>          
+     body 
+     {             
+        background-image: url("5591421.jpg");            
+        background-repeat: no-repeat;            
+        background-attachment: fixed;             
+        background-size: 100% 100%;          
+      }
       </style>
    </head>
    <body>
+      <div class="wrapper">
+         <input type="checkbox" id="btn" hidden>
+         <label for="btn" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         <i class="fas fa-times"></i>
+         </label>
+         <nav id="sidebar">
+            <div class="title">
+               Side Menu
+            </div>
+            <ul class="list-items">
+               <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+               <li><a href="#"><i class="fas fa-download"></i>Download</a></li>
+               <li><a href="#"><i class="far fa-life-ring"></i>Support</a></li>
+               <li><a href="#"><i class="fas fa-tasks"></i>FAQ's</a></li>
+               <li><a href="#"><i class="fas fa-info"></i>About Itd Os</a></li>
+               <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
+               <div class="icons">
+                  <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram-square"></i></a>
+                  <a href="#"><i class="fab fa-twitter-square"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+               </div>
+            </ul>
+         </nav>
+      </div>
+      <div class="content">
+         <div class="header">
+         </div>
+      </div>
    </body>
 </html>
