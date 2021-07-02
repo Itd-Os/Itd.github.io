@@ -149,3 +149,8 @@
   font-size: 40px;
   font-weight: 700;
 }
+h1 {
+  text-align: left;
+  color:#b28781;
+  padding: 70px;
+  }
