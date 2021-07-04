@@ -149,8 +149,40 @@
   font-size: 40px;
   font-weight: 700;
 }
-h1 {
-  text-align: left;
-  color: #696969;
-  padding: 100px;
+.title {
+  text-align: center;
+  color: #313333;
+  padding-top: 100px;
   }
+.subtitle {
+  text-align: center;
+  color: #313333;
+}
+.paragraph {
+  text-align: center;
+  color: #313333;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 25px;
+  width: 730;
+  height: 500px; 
+}
+.button {
+  background-color: #FD7B7B;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 500px;
+  border-radius: 20px;
+}
