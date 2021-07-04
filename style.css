@@ -153,14 +153,17 @@
   text-align: center;
   color: #313333;
   padding-top: 100px;
+  font-weight: bolder
   }
 .subtitle {
   text-align: center;
   color: #313333;
+
 }
 .paragraph {
   text-align: center;
   color: #313333;
+  padding-top: 20px;
 }
 .center {
   display: block;
@@ -183,6 +186,21 @@
   margin: 2px 1px;
   cursor: pointer;
   margin-top: 20px;
-  margin-left: 500px;
+  margin-left: 600px;
+  border-radius: 20px;
+}
+.button-2 {
+  background-color: #FD7B7B;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 40px;
   border-radius: 20px;
 }
