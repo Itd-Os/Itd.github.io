@@ -153,26 +153,24 @@
   text-align: center;
   color: #313333;
   padding-top: 100px;
-  font-weight: bolder
-  }
+  font-weight: bolder;
+}
 .subtitle {
   text-align: center;
   color: #313333;
-
+  padding-bottom: 20px;
 }
 .paragraph {
   text-align: center;
   color: #313333;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .center {
+  border-radius: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  border-radius: 25px;
-  width: 730;
-  height: 500px; 
 }
 .button {
   background-color: #FD7B7B;
@@ -204,3 +202,16 @@
   margin-left: 40px;
   border-radius: 20px;
 }
+.Rectangle  {
+  width: 27em;
+  height: 14em;
+  padding: 30px 30px;
+  background-color: #FD7B7B;
+  border-radius: 1cm;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  display: block;
+} 
+  
