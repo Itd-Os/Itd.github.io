@@ -202,16 +202,69 @@
   margin-left: 40px;
   border-radius: 20px;
 }
-.Rectangle  {
-  width: 27em;
-  height: 14em;
-  padding: 30px 30px;
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);body {
+  font-family: "Roboto", sans-serif;
+  background: #f9f9f9;
+}
+
+.primary-color {
+  color: #FF9232;
+}
+
+.section-100 {
+  padding: 100px 0;
+}
+
+.btn {
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+}
+
+.btn.btn-lg {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-primary {
+  background-color: #FF9232;
+  border-color: #FF9232;
+}
+
+.btn-primary:hover {
+  background-color: #ff8419;
+  border-color: #ff8419;
+}
+
+.blog-card {
+  background: #fff;
+  -webkit-box-shadow: 0 5px 30px -3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 5px 30px -3px rgba(0, 0, 0, 0.16);
+  margin-bottom: 30px;
+}
+
+.blog-card .blog-thumbnail {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blog-card .blog-container {
+  padding: 15px;
+}
+.button-2 {
   background-color: #FD7B7B;
-  border-radius: 1cm;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  display: block;
-} 
-  
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}

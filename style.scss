@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+// Variables
+$primary:#FF9232;
+
+body{
+	font-family: "Roboto", sans-serif;
+	background:#f9f9f9;
+}
+
+.primary-color{
+	color:$primary;
+}
+
+.section-100{
+	padding:100px 0;
+}
+
+.btn{
+	padding-left:25px;
+	padding-right:25px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.16);
+	&.btn-lg{
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+.btn-primary{
+	background-color:$primary;
+	border-color:$primary;
+	&:hover{
+		background-color:darken($primary,5%);
+		border-color:darken($primary, 5%);
+	}
+}
+
+.blog-card{
+	background:#fff;
+	box-shadow: 0 5px 30px -3px rgba(0,0,0,0.16);
+	margin-bottom: 30px;
+	.blog-thumbnail{
+		width:100%;
+		height:220px;
+		object-fit:cover;
+	}
+	.blog-container{
+		padding:15px;
+	}
+}
