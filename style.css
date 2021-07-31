@@ -268,42 +268,135 @@
   margin: 2px 1px;
   cursor: pointer;
 }
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Fixed sidenav, full height */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 220px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #FD7B7B; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #E7BBBA;
+  overflow-x: hidden;
   padding-top: 20px;
 }
 
-/* The navigation menu links */
-.sidenav a {
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 11px;
-  color: #ffff;
+  font-size: 20px;
+  color: #fff;
   display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #FD7B7B;
 }
 
-/* Style page content */
+/* Main content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: E7BBBB;
+  color: white;
+}
+
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
- 
 
+/* Documentation page */
+.dropbutton {
+  background-color: #ffff;
+  border: none;
+  color: #313333;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+.dropbutton:hover, .dropbutton:focus {
+  background-color: #;
+}
+
+.dropdownmenu {
+  padding-left: 20px;
+  padding-top: 10px;
+  position: relative;
+  display: inline-block;
+  outline: none; 
+  border-radius: 20px;
+}
+
+.dropdownmenu-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 140px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px #fff(0,0,0,0.3);
+}
+
+.dropdownmenu-content-1 {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 140px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px #fff(0,0,0,0.3);
+}
+
+.dropdownmenu-content-2 {
+  padding-top: 80px;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 140px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px #fff(0,0,0,0.3);
+}
+
+.dropdownmenu-content a {
+  color: #313333;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownmenu a:hover {
+  background-color: #f2f2f2
+}
+
+.show {
+  display:block;
+}

@@ -12,84 +12,32 @@
       </style>
    </head>
    <body>
-      <div class="wrapper">
-         <input type="checkbox" id="btn" hidden>
-         <label for="btn" class="menu-btn">
-         <i class="fas fa-bars"></i>
-         <i class="fas fa-times"></i>
-         </label>
-         <nav id="sidebar">
-            <div class="title">
-               Side Menu
-            </div>
-            <ul class="list-items">
-               <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-               <li><a href="Download.html"><i class="fas fa-download"></i>Download</a></li>
-               <li><a href="Support.html"><i class="far fa-life-ring"></i>Support</a></li>
-               <li><a href="Docs.html"><i class="fas fa-tasks"></i>Docs</a></li>
-               <li><a href="About.html"><i class="fas fa-info"></i>About Itd Os</a></li>
-               <div class="icons">
-                  <a href="#"><i class="fab fa-pinterest-square"></i></a>
-                  <a href="https://www.instagram.com/infinitiveteamdeveloper/"><i class="fab fa-instagram-square"></i></a>
-                  <a href="https://twitter.com/TeamInfinitive"><i class="fab fa-twitter-square"></i></a>
-                  <a href="https://github.com/Infinitive-team-developer/Itd-Os"><i class="fab fa-github"></i></a>
-               </div>
-            </ul>
-         </nav>
-      </div>
-      <section id="blog" class="section-100">
-		<div class="container">
-			<p class="text-center primary-color">Latest updates are available here</p>
-			<h1 class="text-center"><b>Itd Os documentation</b></h1>
-			<br>
-			<br>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="blog-card">
-						<img src="images/debian-packages.png" alt="" class="blog-thumbnail">
-						<div class="blog-container">
-							<span class="badge badge-info">Easy</span>
-							<h4><b>Easy level documentation</b></h4>
-							<p class="text-muted">This is the basic documentation that contains all the necessary guides to use Itd Os such as how to connect a printer or how to install an application. The guides are complete with an explanation to understand the Linux world</p>
-							<hr>
-							<a href="Easy.html" class="button-2">Read more</a> 
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="blog-card">
-						<img src="images/p5.jpg" alt="" class="blog-thumbnail">
-						<div class="blog-container">
-							<span class="badge badge-warning">moderate</span>
-							<h4><b>Science is good</b></h4>
-							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ullam, reprehenderit? Praesentium doloribus soluta, quia.</p>
-							<hr>
-							<a href="https://www.freecodecamp.org/" class="button-2">Read more</a> 
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="blog-card">
-						<img src="images/p6.jpg" alt="" class="blog-thumbnail">
-						<div class="blog-container">
-							<span class="badge badge-success">Hard</span>
-							<h4><b>Agriculture is good</b></h4>
-							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ullam, reprehenderit? Praesentium doloribus soluta, quia.</p>
-							<hr>
-							<a href="https://www.freecodecamp.org/" class="button-2">Read more</a> 
-						</div>
-					</div>
-				</div>
-			</div>
-			<br>
-			<br>
-			<div class="text-center">
-			</div>
-		</div>
-	</section>
-
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-			
+</head>
+ <div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <!-- column1, Vertical Dropdown Menu -->
+            <div id="main-menu" class="list-group">
+                <a href="#sub-menu" class="list-group-item active" data-toggle="collapse" data-parent="#main-menu">Item 1 <span class="caret"></span></a>
+                <div class="collapse list-group-level1" id="sub-menu">
+                    <a href="#" class="list-group-item" data-parent="#sub-menu">Sub Item 1</a>
+                    <a href="#" class="list-group-item" data-parent="#sub-menu">Sub Item 2</a>
+                    <a href="#sub-sub-menu" class="list-group-item" data-toggle="collapse" data-parent="#sub-menu">Sub Item 3 <span class="caret"></span></a>
+                    <div class="collapse list-group-level2" id="sub-sub-menu">
+                        <a href="#" class="list-group-item" data-parent="#sub-sub-menu">Sub Sub Item 1</a>
+                        <a href="#" class="list-group-item" data-parent="#sub-sub-menu">Sub Sub Item 2</a>
+                        <a href="#" class="list-group-item" data-parent="#sub-sub-menu">Sub Sub Item 3</a>
+                    </div>
+                </div>
+                <a href="#" class="list-group-item">Item 2</a>
+                <a href="#" class="list-group-item">Item 3</a>
+                <a href="#" class="list-group-item">Item 4</a>
+                <a href="#" class="list-group-item">Item 5</a>
+            </div>    
+        </div>
+        <div class="col-md-9">
+            <!-- column 2, content goes here... -->
+        </div>
+    </div>
+</div>		
     
