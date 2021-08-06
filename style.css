@@ -172,34 +172,36 @@
   margin-left: auto;
   margin-right: auto;
 }
+div.buttons{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button {
-  background-color: #FD7B7B;
-  border: none;
-  color: white;
-  padding: 20px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 1px;
+  background:#FD7B7B;
+  color: #ffff; 
+  border: 2px solid #FD7B7B;
+  font-size: 20px;
+  padding: 25px 80px;
+  text-transform: uppercase;
   cursor: pointer;
-  margin-top: 20px;
-  margin-left: 600px;
+  display: inline-block;
+  margin: 15px 30px;
   border-radius: 20px;
 }
+
 .button-2 {
-  background-color: #FD7B7B;
-  border: none;
-  color: white;
-  padding: 20px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 1px;
+  background: #FD7B7B;
+  color: #ffff;
+  border: 2px solid #FD7B7B;
+  font-size: 20px;
+  padding: 25px 80px;
+  text-transform: uppercase;
   cursor: pointer;
-  margin-top: 20px;
-  margin-left: 40px;
+  display: inline-block;
+  margin: 15px 30px;
   border-radius: 20px;
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);body {
@@ -257,16 +259,17 @@
   padding: 15px;
 }
 .button-2 {
-  background-color: #FD7B7B;
-  border: none;
-  color: white;
-  padding: 20px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 1px;
+  background: transparent;
+  color: #FD7B7B;
+  border: 2px solid #FD7B7B;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  text-transform: uppercase;
   cursor: pointer;
+  display: inline-block;
+  margin: 15px 30px;
+  border-radius: 20px;
 }
 body {
   font-family: "Lato", sans-serif;
