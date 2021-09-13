@@ -195,6 +195,7 @@ div.buttons{
 }
 
 .button {
+  padding-left: 200px;
   background:#2074ec;
   color: #ffff; 
   border: 2px solid #2074ec;
